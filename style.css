@@ -1,0 +1,752 @@
+
+/* -------- Main -------- */
+
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    align-content: center;
+}
+
+
+
+body{
+    background:url('Slider\ image.jpeg') no-repeat;
+    background-size: cover;
+    background-size: 100% ;
+    
+}
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+/* ------ slider area ------ */
+
+section{
+    width: 100%;
+    height: 51vh;  
+}
+
+.sec-02 p{
+    background-color: #316DC3 ;
+    color: #F7F8FA;
+    display: flex ;
+    align-self: center;
+    font-size: 14px;
+    width: 48%;
+    padding: 3px;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+.sec-02{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: center;       
+}
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+
+/* ------- Top Bar ------- */
+
+i .fab{
+    font-size: 16px;
+    color: white;    
+    list-style: none;
+}
+ 
+
+.topbar{
+    background-color: #316DC3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;    
+
+}
+
+.socialmedia li{
+    display: inline-block;
+    padding: 0 10px; 
+    color: white; 
+}
+
+.socialmedia i:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s linear;
+}
+
+
+
+.topline{
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+
+.topbtn button{
+    padding: 6px 10px;
+    font-size: 11px;
+    color: #427900 ;
+}
+
+.topbtn button:hover {
+    cursor: pointer;
+}
+
+
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+
+/* ---------- Navigation Bar ---------- */
+
+.navigation .logo{
+    width: 191px;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;   
+
+}
+
+
+.navbar ul li a{
+    border-radius: 30;
+    border: none;
+    padding: 9px 20px;
+    background-color: #F7F8FA;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s none;
+    transition-delay: 0s 0s;
+     
+}
+
+.navbar ul li a:hover{
+    border-radius: 30;
+    border: none;
+    background-color: #316DC3 ;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s linear;
+    list-style: none;    
+}
+
+.navbar .active a{
+    border-radius: 30;
+    border: none;
+    background-color: #316DC3 ;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    background-color: #F7F8FA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;     
+
+}
+
+/* ------- About Sub Manu -------*/
+
+.about-sub-manu{
+    display: none;
+}
+
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+
+/* ------- introduction -------*/
+
+
+.intro{
+    background-color: #F7F8FA;
+    display: flex;
+    text-align: center;
+    font-size: 29px;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.intro-para{
+    margin-top: 30px;
+}
+
+.logo-fav{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+
+.favicon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,121,0);
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.introduction{
+    margin-bottom: 10px;
+    word-spacing: -7px;
+    
+    font-size: 32px;
+}
+
+
+
+.paragraphs{
+    margin-left: 410px;
+    margin-right: 410px;
+    text-align: justify;
+    font-size: 14px;
+    color: #666666;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    
+}
+
+.paragraphs p{
+    margin-bottom: 20px;
+    
+}
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+/* ------- data-container -------*/
+
+
+.data-container{
+    height: 25vh;
+    background-color: rgb(39,85,233);  
+}
+
+
+
+.data{
+    display: flex;
+    margin-left: 410px;
+    margin-right: 410px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding: 40px 0px;
+}
+
+
+
+.data-list, .data-list span{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+
+.data-list h2{
+    font-size: 48px;
+    padding-bottom: 15px;
+
+}
+
+.data-list h5{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.data-list span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.data-icon{
+    width: 40px;
+}
+
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+/* ------- what-we-do -------*/
+
+.what-we-do{
+    background-color: #F7F8FA;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;   
+    
+    
+}
+
+.doing-heading {
+    margin-top: 0px;
+    font-size: 32px;
+
+}
+
+
+
+.what-we-do-block{
+    list-style: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-spacing: 30px;
+    box-shadow: 0px 30px #c5c5c5;
+    -moz-box-shadow: 0 0 30px #c5c5c5;
+    -webkit-box-shadow: 0 0 30px #c5c5c5;
+    box-shadow: 0 0 30px #c5c5c5;
+    text-transform: uppercase;
+
+}
+
+
+.what-we-do-block h4{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 18px;  
+    color: #316dc3;
+
+}
+
+
+.what-we-do-block .icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+
+
+.what-we-do-list li{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+
+
+
+
+.what-we-do-list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;  
+}
+
+
+.mission li{
+    display: flex;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(247,248,250);
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgb(238,238,238);
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-spacing: 30px;
+}
+
+.doing{
+    margin-top: 10px;
+    margin-left: 410px;
+    margin-right: 410px;
+}
+
+.favicon-02 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66,121,0);
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.i1{
+    color: rgb(49,109,195);
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    
+}
+
+.d2{
+    color: rgb(66,121,0);
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+}
+
+ 
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+/* -------- mission and event updates -------- */
+
+.mission-main{
+    background-color: white;
+
+}
+
+.mission-and-updates-container{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 410px;
+    margin-right: 410px;
+    text-align: left;
+
+}
+
+
+.mission-text, .upcoming-events-heading{
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    color: rgb(49,109,195);
+    font-weight: 600;
+}
+
+.upcoming-events{
+    margin-left: 10px;
+    text-align: left;
+
+}
+
+
+
+
+.upcoming-events hr{
+margin-top: 10px;
+margin-bottom: 30px;
+   
+    
+}
+
+.upcoming-events p{
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #666666;
+    line-height: 1.6;
+
+}
+
+
+.mission-heading hr{
+    margin-top: 10px;
+    margin-bottom: 30px;    
+        
+}
+
+.mission-list{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    background-color: rgb(206, 206, 206);
+    width: 400px;
+    height: 70px;
+}
+
+
+.mission-list img{
+    margin-left: px;
+    width: 30px;
+}
+
+.mission-headings{
+    margin-left: 40px;
+}
+
+
+.mission-list h6{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(49,109,195);
+}
+
+
+.mission-and-upcoming-events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.mission-list-container{
+    margin-right: 50px;
+    
+}
+
+.mission-text{
+
+    text-transform: uppercase;
+}
+
+.box-1{
+    flex: 3 ;   
+
+}
+
+.box-2{
+    flex: 1 ;  
+    
+}
+
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+
+/* -------- image-gallery -------- */
+
+
+.image-gallery p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(66,121,0);
+}
+
+
+.ig-heading{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.image-gallery{
+    background-color: white;
+    padding-left: 410px;
+    padding-right: 410px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.g-images ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+} 
+
+.g-images ul img{
+    width: 210px;
+} 
+
+/* 
+div {
+    display: block;
+} */
+
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+/* -------- Bottom Container-------- */
+
+.bottom-div{
+    background-color: rgb(37,39,46);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+} 
+
+
+.bottom{
+    display: flex;
+    margin-left: 410px;
+    margin-right: 410px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+
+}
+
+
+/* -------- connect-with-us -------- */
+
+
+
+
+.connect-with-us-links li{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(49,109,195);
+    line-height: 1px;
+    padding: 8px 11px;
+    margin: 2px 7px 2px 0;
+
+}
+
+
+
+.connect-with-us-links{
+    display: inline;    
+    
+}
+
+.contact-us-details-container{
+    display: flexbox;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 400;
+    font-size: 14px;
+    margin-top: 10 px;
+    color: rgb(187, 187, 187);
+    text-align: left;
+}
+
+
+.contact-us-details-container ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+  
+}
+
+.connect-with-us-list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fas, .far{
+    margin-right: 10px;
+    color: rgb(65,120,1);
+}
+
+
+
+
+/* -------- useful-links -------- */
+
+
+.useful-links-heading, .connect-with-us-heading h4{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+.b-01{
+    flex: 1 ;   
+
+}
+
+.b-02{
+    flex: 1 ;   
+
+}
+
+.b-03{
+    flex: 1;   
+
+}
+
+
+/* -------- Footer --------- */
+
+footer{
+    background-color: rgb(49,109,195);
+}
+
+footer p{
+    margin-left: 410px;
+    margin-right: 410px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.go-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0,0.1);
+    color: white !important;
+    font-size: 30px ;
+    border-radius: 3px;
+}
+
+
+
+.go-to-top:hover{
+    
+    background-color: rgba(0, 0, 0,0.5);
+    cursor: pointer;
+    
+}
+
+/* ------ xxxxx --------- xxxxx --------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
